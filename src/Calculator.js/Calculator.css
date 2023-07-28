@@ -74,14 +74,14 @@ h2 {
   grid-column: span 2;
 }
 .equal {
-  grid-column: span 2; /* The equal button will span 2 columns, taking 50% of the total width */
+  grid-column: span 2; 
 }
 
 .clear {
-  grid-column: span 2; /* The clear button will also span 2 columns, taking 50% of the total width */
+  grid-column: span 2; 
 }
 
-/* Responsive Styles */
+
 
 @media (max-width: 600px) {
   .button-grid {

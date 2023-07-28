@@ -1,7 +1,7 @@
 import "./Productss.css";
 import { Button } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import { shuffle } from "lodash"; // Import the shuffle function from Lodash or any other utility library
+import { shuffle } from "lodash"; 
 function Productss() {
   const [products, setProducts] = useState([]);
 
@@ -12,7 +12,6 @@ function Productss() {
       .catch((error) => console.error("Error fetching products:", error));
   }, []);
 
-  // Function to handle the shuffle action
   const handleShuffle = () => {
     setProducts(shuffle(products));
   };
@@ -21,7 +20,6 @@ function Productss() {
     <div>
       <h1>Welcome to E-commerce</h1>
 
-      {/* Add the Shuffle button */}
       <Button variant="contained" onClick={handleShuffle}>
         Shuffle Products
       </Button>

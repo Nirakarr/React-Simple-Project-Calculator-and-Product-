@@ -28,10 +28,10 @@ h1{
 .photo {
  border: #000 1px dotted;
  margin: 5px;
- width: 100%; /* To make sure the image container takes full width */
- height: auto; /* To maintain the aspect ratio of the image */
- max-width: fit-content; /* Set a maximum width for the image */
- max-height: fit-content; /* Set a maximum height for the image */
+ width: 100%; 
+ height: auto; 
+ max-width: fit-content; 
+ max-height: fit-content; 
 }
 img{
  height: 200px;
