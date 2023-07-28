@@ -1,0 +1,53 @@
+h1{
+ text-align: center;
+ padding: 10px;
+ margin: 10px;
+ background-color: aqua;
+}
+.screen {
+ background-color: floralwhite;
+ grid-template-columns: 2.5% 95% 2.5%;
+ display: grid;
+}
+
+.all {
+ border: #000 2px solid;
+ margin-top: 20px;
+ padding: 15px;
+}
+
+.title {
+ height: fit-content;
+ margin: 5px;
+ font-family: 'Times New Roman';
+ font-weight: 500;
+ font-size: x-large;
+ cursor: pointer;
+}
+
+.photo {
+ border: #000 1px dotted;
+ margin: 5px;
+ width: 100%; /* To make sure the image container takes full width */
+ height: auto; /* To maintain the aspect ratio of the image */
+ max-width: fit-content; /* Set a maximum width for the image */
+ max-height: fit-content; /* Set a maximum height for the image */
+}
+img{
+ height: 200px;
+}
+.author {
+ font-style: italic;
+ margin: 5px;
+ font-size: 20px;
+
+}
+
+.description {
+ margin: 5px;
+ font-size: 25px;
+}
+
+.read {
+ margin: 5px;
+}
