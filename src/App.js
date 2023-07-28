@@ -1,4 +1,3 @@
-// import Calculator from "./Calculator.js/Calculator";
 import Productss from "./Products/Productss.js";
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
   return (
     <div>
       <Productss></Productss>
-      {/* <Calculator></Calculator> */}
       {/* <Routes> */}
       {/* <Route path="/" exact element={<NavBar />}></Route>
       
