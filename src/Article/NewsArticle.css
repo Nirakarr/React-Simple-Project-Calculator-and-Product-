@@ -1,0 +1,57 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+.container{
+ background-color: antiquewhite;
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ border: 2px solid red;
+}
+.title{
+ font-size: 40px;
+ font-weight: 900;
+ padding: 10px;
+ margin: 10px;
+}
+h1{
+ margin-top: 10px;
+ text-align: center;
+}
+.photo{
+ height:200px;
+ padding: 10px;
+ margin: 10px;
+ border: 1px solid gray;
+}
+.author{
+ width:fit-content;
+ height:fit-content;
+ font-size: 35px;
+ font-weight: 900;
+ margin: 10px;
+ padding: 10px;
+}
+.description{
+ margin: 10px;
+ padding: 10px;
+ font-size: 35px;
+ font-weight: 900;
+}
+hr{
+ font-size: 10px;
+ width: 100%;
+ height: 0;
+ margin: 10px;
+}
+button{
+ width: fit-content;
+
+}
+.btn{
+  margin: 10px !important;
+ padding: 10px !important;
+}

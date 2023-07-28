@@ -1,0 +1,39 @@
+*{
+ margin: 0px;;
+ padding: 0px;
+ color:white;
+ font-size: large;
+}
+.navbar ul{
+ display: flex;
+ flex-wrap: wrap;
+ background-color: black;
+ height: 60px;
+ align-items: center;
+ justify-content: space-around;
+}
+ul,li{
+ list-style: none;
+ display: inline-block;
+}
+.inputs{
+ display: inline-block;
+ justify-content: space-between;
+}
+input{
+ margin-left: 10px;
+ color: black;
+ font-size: 30px;
+ border-radius: 30px;
+ background-color: white;
+ text-align: center;
+ border-color: white;
+}
+button{
+color: black;
+border: 3px solid red;
+background-color: aqua;
+font-size: 30px;
+margin-left: 2px;
+border-radius: 10%;
+}

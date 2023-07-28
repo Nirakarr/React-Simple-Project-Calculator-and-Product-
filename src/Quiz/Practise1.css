@@ -1,0 +1,128 @@
+
+.quizContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+  
+.quizHeader {
+  margin: 0;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  background-color: aqua;
+}
+
+.quizContainers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(222, 156, 156);
+  border-radius: 10%;
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.quesTitle {
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.answerContainer {
+  display: grid;
+  grid-template-columns: 1fr; /* Change the grid layout to a single column */
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.answerContainer button {
+  display: flex;
+  align-items: center; /* Center the content vertically */
+  justify-content: flex-start; /* Align the content to the left */
+  margin: 12px;
+  background-color: white;
+  color: black;
+  height: max-content;
+  width: max-content;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid green;
+  font-size: 20px;
+}
+
+span {
+  color: black;
+  height: 30px;
+  width: 30px; /* Set a fixed width for the spans */
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+span.MuiTouchRipple-root {
+  display: none !important;
+}
+
+.answerContainer button span {
+  flex: 0 0 auto; /* Fix the span size, allow text to adjust */
+}
+
+.answerContainer button:hover {
+  color: #ffffff;
+}
+
+.nxtbtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nxtbtn button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #fff;
+  color: #0c8f0c;
+  border: 1px solid #0c8f0c;
+  border-radius: 8px;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  cursor: pointer;
+}
+
+.nxtbtn button:hover {
+  background-color: #0c8f0c;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .quizContainers {
+    font-size: 16px;
+  }
+
+  .quesTitle {
+    font-size: 25px;
+  }
+
+  .answerContainer button {
+    font-size: 16px;
+    width: 100%;
+    max-width: none;
+  }
+}

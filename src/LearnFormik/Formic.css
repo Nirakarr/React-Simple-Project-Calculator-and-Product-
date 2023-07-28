@@ -1,0 +1,10 @@
+.formicform{
+position: relative;
+top:0em;
+margin: 2em;
+border-radius: 2px solid black;
+}
+
+.gap{
+ margin:1px;
+}
